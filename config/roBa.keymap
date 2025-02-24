@@ -40,6 +40,12 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
     };
 
     macros {
