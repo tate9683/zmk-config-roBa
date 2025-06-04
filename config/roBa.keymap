@@ -41,9 +41,19 @@
             key-positions = <24 25>;
         };
 
-        mouseclick {
-            bindings = <&mkp LCLK>;
+        mb1 {
+            bindings = <&mkp MB1>;
             key-positions = <18 19>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <19 20>;
+        };
+
+        mb3 {
+            bindings = <&mkp MB3>;
+            key-positions = <20 21>;
         };
     };
 
