@@ -93,10 +93,10 @@
 
         FUNCTION {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                        &kp NUMBER_6  &kp N7            &kp N8  &kp N9     &kp NUMBER_0
-&kp F1        &kp F2        &kp F3        &kp F4        &kp F5   &trans      &kp F13  &kp LEFT      &kp DOWN          &kp UP  &kp RIGHT  &kp F10
-&kp F6        &kp F7        &kp F8        &kp F9        &kp F10  &trans      &trans   &kp INT_KANA  &kp INT_MUHENKAN  &trans  &trans     &kp F11
-&trans        &trans        &trans        &trans        &trans   &trans      &trans   &trans                                             &kp F12
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5                              &kp NUMBER_6  &kp N7            &kp N8  &kp N9     &kp NUMBER_0
+&kp F1        &kp F2        &kp F3        &kp F4        &kp F5   &trans      &kp F13        &kp LEFT      &kp DOWN          &kp UP  &kp RIGHT  &kp F10
+&kp F6        &kp F7        &kp F8        &kp F9        &kp F10  &trans      &kp LA(GRAVE)  &kp INT_KANA  &kp INT_MUHENKAN  &trans  &trans     &kp F11
+&trans        &trans        &trans        &trans        &trans   &trans      &trans         &trans                                             &kp F12
             >;
         };
 
@@ -104,7 +104,7 @@
             bindings = <
 &kp EXCLAMATION             &kp AT_SIGN      &kp HASH         &kp DOLLAR       &kp PERCENT                                           &kp CARET      &kp AMPERSAND  &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &mkp LCLK  &kp BACKSPACE  &kp AT_SIGN    &kp HASH        &kp DOLLAR            &kp PERCENT
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &mkp MB2      &mkp LCLK                    &mkp RCLK  &kp KP_PLUS    &kp SEMICOLON  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &mkp MB2      &mkp LCLK                    &mkp RCLK  &kp KP_PLUS    &kp COLON      &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans     &trans                                                              &kp PIPE
             >;
         };
