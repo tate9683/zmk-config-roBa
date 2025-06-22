@@ -95,8 +95,8 @@
 &lt 4 LEFT_WIN    &kp LEFT_WIN    &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 5 INT_MUHENKAN      &lt 3 BACKSPACE  &lt 1 ENTER                             &lt 5 DELETE
             >;
 
-            sensor-bindings =    <&mouse_scroll SCRL_UP SCRL_DOWN>;
-//　<&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings =    <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+
 
         };
 
