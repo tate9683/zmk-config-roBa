@@ -117,7 +117,7 @@
         MOUSE {
             bindings = <
 &trans  &kp LEFT_WIN  &kp ESC  &trans  &kp TAB                                        &trans  &trans    &trans    &trans    &trans
-&trans  &trans        &trans   &trans  &trans   &trans      &kp INT_KATAKANAHIRAGANA  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans        &trans   &trans  &trans   &trans      &kp INT_KATAKANAHIRAGANA  &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans
 &trans  &trans        &trans   &trans  &trans   &trans      &kp INTERNATIONAL_1       &trans  &trans    &trans    &trans    &trans
 &trans  &trans        &trans   &trans  &trans   &trans      &trans                    &trans                                &trans
             >;
