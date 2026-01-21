@@ -120,7 +120,7 @@
 
         NUM {
             bindings = <
-&kp EXCLAMATION             &kp JP_AT      &kp HASH         &kp DOLLAR       &kp PERCENT                                           &kp CARET      &kp AMPERSAND  &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp EXCLAMATION             &kp JP_AT      &kp HASH         &kp DOLLAR       &kp PERCENT                                           &kp CARET      &kp AMPERSAND  &kp TILDE       &kp JP_LPAREN  &kp JP_RPAREN
 &kp SLASH                   &kp KP_NUMBER_4  &kp DELETE       &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &mkp LCLK  &kp BACKSPACE  &kp AT_SIGN    &kp HASH        &kp DOLLAR            &kp PERCENT
 &mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &mkp MB2      &mkp LCLK                    &mkp RCLK  &kp KP_PLUS    &kp COLON      &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
 &trans                      &trans           &trans           &trans           &trans        &trans                       &trans     &trans                                                              &kp PIPE
