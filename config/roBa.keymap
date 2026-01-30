@@ -3,7 +3,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100   //スクロール量
+//#define ZMK_POINTING_DEFAULT_SCRL_VAL 100   //スクロール量
 //#define ZMK_MOUSE_POINTING_SCRL_VAL 100
 #define MOUSE 4
 #define SCROLL 5
@@ -92,11 +92,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-        };
-
-
-
-
+        }
     };
 
 
