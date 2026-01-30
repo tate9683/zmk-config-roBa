@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 //#define ZMK_POINTING_DEFAULT_SCRL_VAL 100   //スクロール量
-//#define ZMK_MOUSE_POINTING_SCRL_VAL 100
+
 #define MOUSE 4
 #define SCROLL 5
 #define NUM 6
@@ -95,8 +95,6 @@
         };
     };
 
-
-
     keymap {
         compatible = "zmk,keymap";
 
@@ -107,7 +105,7 @@
 &mt LEFT_SHIFT Z     &mt LEFT_ALT X  &kp C         &kp V                        &kp B        &kp TAB                            &kp LANGUAGE_2   &kp N        &kp M  &kp COMMA  &kp DOT  &lt 5 SLASH
 &mt LCTRL SEMICOLON  &kp LA(GRAVE)   &kp LEFT_ALT  &lt_to_layer_0 7 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 5 INT_MUHENKAN      &lt 3 BACKSPACE  &lt 1 ENTER                             &lt 6 DELETE
             >;
-            　//sensor-bindings = <&scroll_up_down>;
+
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
         };
 
