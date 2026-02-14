@@ -1,17 +1,14 @@
 manifest:
   remotes:
- - name: cormoran
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+    - name: cormoran
       url-base: https://github.com/cormoran
-    # 既存のリモートはそのまま維持
   projects:
-  # ZMK: DYA Studio 用カスタム RPC サブシステム付き cormoran fork
     - name: zmk
-  　　 remote: cormoran
+      remote: cormoran
       revision: v0.3-branch+dya
       import: app/west.yml
-    remote: cormoran
-      revision: main
-       # DYA Studio モジュール（すべて cormoran リポジトリ）
     - name: zmk-module-ble-management
       remote: cormoran
       revision: main
